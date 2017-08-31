@@ -6,7 +6,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlRootElement;
+
 
 /**
  * Classe de entidade do certificado.
@@ -15,6 +17,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @Entity
 @XmlRootElement
+@Table(name = "certificados")
 public class Certificado implements Serializable {
 
     private static final long serialVersionUID = -3049409289512929057L;

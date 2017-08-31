@@ -1,9 +1,7 @@
-package br.com.renato.certificado;
+package br.com.renato.certificado.Controllers;
 
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
-import javax.jws.WebMethod;
-import javax.jws.WebService;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 

@@ -1,4 +1,4 @@
-package br.com.renato.certificado;
+package br.com.renato.certificado.Controllers;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
